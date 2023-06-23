@@ -1,11 +1,6 @@
 @media (max-width: 750px) {
   .container {
     display: block;
-    text-align: center;
-  }
-
-  .box ul li a {
-    margin: 50px;
   }
   
   .container .gif img {
@@ -24,5 +19,6 @@
   #about p {
     font-size: 14px;
     margin: auto;
+    margin-bottom: 100px;
   }
 }
