@@ -1,0 +1,24 @@
+@media (max-width: 750px) {
+  .container {
+    display: block;
+    text-align: center;
+  }
+
+  .container .gif img {
+    width: 420px;
+    height: 100%;
+  }
+
+  .container h1 {
+    font-size: 58px;
+  }
+  
+  .container h5 {
+    font-size: 28px;
+  }
+
+  #about p {
+    font-size: 17px;
+    margin: auto;
+  }
+}

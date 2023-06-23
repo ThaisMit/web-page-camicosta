@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #222121;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+.box {
+  width: 100%;
+  height: 80px;
+  background-color: #222121;
+  padding-top: 18px;
+  position: static;
+  font-family: 'Ruluko', sans-serif;
+}
+
+.box ul {
+  list-style: none;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.box ul li a {
+  text-decoration: none;
+  margin: 70px;
+}
+
+.box ul li a:hover {
+  font-size: 45px;
+  transition: 0.2s;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.container .gif img {
+  width: 480px;
+  height: 100%;
+}
+
+.container h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.container h5 {
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container .info #arrow {
+  font-size: 25px;
+  padding: 50px 0px 25px 0px;
+  cursor: pointer;
+  animation: blink 0.8s steps(5, start) infinite;
+  text-align: center;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+#animation {
+  transition: 1s;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: 2s;
+}
+
+.active {
+  display: block !important;
+}
+
+#about p {
+  font-size: 20px;
+  max-width: 300px;
+  line-height: 1.5em;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
