@@ -1,6 +1,7 @@
 @media (max-width: 750px) {
   .container {
     display: block;
+    text-align: center;
   }
   
   .container .gif img {
