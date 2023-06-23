@@ -4,21 +4,25 @@
     text-align: center;
   }
 
+  .box ul li a {
+    margin: 50px;
+  }
+  
   .container .gif img {
-    width: 420px;
+    width: 280px;
     height: 100%;
   }
 
   .container h1 {
-    font-size: 58px;
+    font-size: 55px;
   }
   
   .container h5 {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   #about p {
-    font-size: 17px;
+    font-size: 14px;
     margin: auto;
   }
 }
